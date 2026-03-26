@@ -45,7 +45,8 @@ Each skill is designed to be:
 ├── README.md
 └── skills/
     ├── sentiment/
-    │   └── sentiment_feed.md
+    │   ├── README.md
+    │   └── SKILL.md
     └── (more skills coming...)
 ```
 
@@ -55,19 +56,24 @@ Each skill is designed to be:
 
 ---
 
+## 🤖 Usage
+
+Each skill can be used independently.
+
+To use a skill:
+
+1. Navigate to the corresponding skill directory under `skills/`
+2. Follow the instructions in that skill’s `README.md`
+3. Load the `SKILL.md` file into your agent system (e.g. OpenClaw)
+
+---
+
 ## 🔌 Design Principles
 
-- **Modular**  
-  Each skill operates independently and can be reused across different agents  
-
-- **Composable**  
-  Multiple skills can be combined into complex workflows or strategies  
-
-- **Agent-first**  
-  Designed specifically for AI agents (e.g. OpenClaw) rather than human interfaces  
-
-- **Extensible**  
-  New skills and integrations can be added over time as the ecosystem grows  
+- **Modular** — independent and reusable  
+- **Composable** — combinable into complex workflows  
+- **Agent-first** — optimized for AI agents  
+- **Extensible** — supports continuous ecosystem expansion  
 
 ---
 
@@ -81,21 +87,10 @@ Each skill is designed to be:
 
 ---
 
-## 🤖 Agent Integration
-
-This repository is designed for integration with AI agents such as OpenClaw.
-
-Agents can:
-- load skills dynamically  
-- combine multiple skills into strategies  
-- execute actions based on real-time data  
-
----
-
 ## 🔗 Related Components
 
-- Kolect Smart Contracts (on-chain infrastructure)  
-- Kolect Sentiment Feed (on-chain data oracle)  
+- Kolect Smart Contracts  
+- Kolect Sentiment Feed (on-chain oracle)  
 
 ---
 
@@ -103,12 +98,10 @@ Agents can:
 
 We are building a growing ecosystem of agent skills.
 
-Contributions are welcome, including:
+Contributions are welcome:
 - new skills  
-- improvements to existing modules  
-- integration examples  
-
-More detailed contribution guidelines will be added in future updates.
+- improvements  
+- integrations  
 
 ---
 
@@ -120,12 +113,14 @@ Kolect aims to build a full-stack system:
 - AI agent execution  
 - composable trading strategies  
 
-In this system, data becomes signals, and signals become actions.
+In this system:
+
+data → signals → actions
 
 ---
 
 ## ⚠️ Disclaimer
 
-This repository is provided for research, development, and transparency purposes only.
+This repository is provided for research and development purposes only.
 
-Nothing in this repository constitutes financial advice, investment advice, or solicitation of any kind.
+Nothing here constitutes financial or investment advice.
